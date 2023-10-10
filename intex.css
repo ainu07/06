@@ -1,5 +1,11 @@
 .conteiner {
     width: 400px;
     height: 400px;
-    padding: spx solid brown;
+    border: 5px solid brown;
+}
+.elemento ele-1 {
+    padding: 5px;
+}
+.elemento ele-2 {
+    padding: 5px;
 }

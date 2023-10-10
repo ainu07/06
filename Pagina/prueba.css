@@ -1,4 +1,86 @@
-body {
-    color: #0077b6;
-    
+/* set up*/
+html, body {
+    padding: 0;
+    margin: 0;
 }
+html {
+    font-size: 50px;
+    background-color:   #0077b6;
+}
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+header {
+    background-repeat: no-repeat;
+   height: 110px;
+}
+header h1 {
+    color: #03045e;
+    font-family: fantasy;
+}
+/*tipografia*/
+h1, h2, h3 {
+    color: #00b4d8;
+    font-family: fantasy;
+}
+
+p, input, li {
+    color: #0077b6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*cuerpo*/
+footer, aside, nav, article {
+    padding: 1%;
+    background-color: #0077b6;
+}
+nav {
+    background-color: #d0f4de;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5485b3;
+  }
+  
+  nav form {
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+  } 
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .box {
+    width: 400px;
+    background-color: aliceblue;
+ }
+  picture img {
+    width: 400px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  button {
+
+  }

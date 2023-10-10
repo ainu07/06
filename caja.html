@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .padre {
+            width: 300px;
+            /* ancho */
+            height: 300px;
+            /* alto */
+            background-color: brown;
+            border: 5px solid yellow;
+            /* bordes a los 4 lados: tamaños en px - tipo de border + color */
+            padding: 20px;
+            /* espacio entre en borde y el elemento */
+            color: aliceblue;
+            font-family: monospace;
+            font-size: 2.5em;
+            display: flex;
+            /* modelo flexbox coloca a los hijos uno al lado del otro */
+
+        }
+
+        .caja1 {
+            background-color: chocolate;
+            /* 
+            border: aplic a los 4 lados
+            border-top: arriba
+            border-bottom: abajo
+            border-right: derecha
+            border-left: izquierda
+            */
+            border-bottom: 3px solid black;
+        }
+
+        .caja2 {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="padre">
+        <div class="caja1">
+            A
+        </div>
+        <div class="caja2">B</div>
+    </div>
+
+</body>
+
+</html>
