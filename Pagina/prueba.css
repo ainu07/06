@@ -4,7 +4,7 @@ html, body {
     margin: 0;
 }
 html {
-    font-size: 50px;
+    /* font-size: 50px; */
     background-color:   #0077b6;
 }
 body {
@@ -14,28 +14,37 @@ body {
     justify-content: center;
 }
 header {
+  display: inline;
+  text-align: center;
     background-repeat: no-repeat;
    height: 110px;
+}
+header div {
+  display: flex; 
+  justify-content: center;
 }
 header h1 {
     color: #03045e;
     font-family: fantasy;
 }
 /*tipografia*/
-h1, h2, h3 {
+h1, h2 {
     color: #00b4d8;
     font-family: fantasy;
+    font-size: 50px;
 }
 
 p, input, li {
     color: #0077b6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
 }
 
 /*cuerpo*/
 footer, aside, nav, article {
     padding: 1%;
     background-color: #0077b6;
+    justify-content: center;
 }
 nav {
     background-color: #d0f4de;
@@ -44,21 +53,24 @@ nav {
   }
   
   nav ul {
-    padding: 0;
+    padding: 3;
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
   }
   
   nav li {
     display: inline;
     text-align: center;
-    flex: 1;
+    flex: 2;
+    padding: 5px;
   }
   
   nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: #5485b3;
+    font-size: 25px;
   }
   
   nav form {
@@ -68,19 +80,52 @@ nav {
   } 
  .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
  }
  .box {
-    width: 400px;
+  margin: 10px;
+  text-align: center;
+    width: 300px;
     background-color: aliceblue;
  }
+ div p {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+ }
+ div h2 {
+  font-size: 30px;
+ }
+ /*.sections {
+
+ }*/
   picture img {
-    width: 400px;
-    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
     align-items: baseline;
+
   }
   button {
-
+    border-color: #0077b6;
+    border-radius: 5px;
+    color: #0077b6;
+  }
+  footer {
+    background-color: aliceblue;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .division {
+    background-color: aliceblue;
+  
+  }
+  footer li {
+    list-style: none;
+    padding: 0 auto;
   }
