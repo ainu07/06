@@ -41,7 +41,7 @@ p, input, li {
 }
 
 /*cuerpo*/
-footer, aside, nav, article {
+footer, aside, nav {
     padding: 1%;
     background-color: #0077b6;
     justify-content: center;
@@ -99,20 +99,37 @@ nav {
  div h2 {
   font-size: 30px;
  }
- /*.sections {
-
- }*/
+ .division {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #0077b6;
+ }
   picture img {
     width: 250px;
     height: 250px;
     justify-content: center;
     align-items: baseline;
+    padding: 5%;
 
+  }
+  aside {   
+    height: 150px;
+     width: 35%;
+    background-color: #03045e;
+  }
+  aside ul {
+    list-style: none;
+  }
+  aside a {
+    color: #0077b6;
   }
   button {
     border-color: #0077b6;
     border-radius: 5px;
     color: #0077b6;
+    margin: 10px;
+    padding: 5px;
   }
   footer {
     background-color: aliceblue;
@@ -121,11 +138,16 @@ nav {
     justify-content: center;
     align-items: baseline;
   }
-  .division {
+  .masinformacion {
     background-color: aliceblue;
-  
+    box-sizing: content-box;
   }
   footer li {
     list-style: none;
+    display: inline-block;
     padding: 0 auto;
+    margin: 15px;
+  }
+  footer a {
+    color: #0077b6;
   }
